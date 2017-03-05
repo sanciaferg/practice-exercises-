@@ -1,0 +1,12 @@
+# Exercise 3 http://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+for i in range (5):
+    print (i)
+
+# list comprehenstion to achieve this in almost one line
+number = int(input("Enter a number: "))           
+b = [i for i in a if i < number]
+print (b)
+
+
+
